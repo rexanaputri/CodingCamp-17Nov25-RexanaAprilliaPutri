@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echa Beauty - Company Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">Echa <span>Beauty</span></div>
+            <div class="hamburger" id="hamburger">☰</div>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#profile">Our Profile</a></li>
+                    <li><a href="#headquarter">Our Headquarter</a></li>
+                    <li><a href="#contact">Message Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section with Banner -->
+    <section id="home" class="banner">
+        <div class="container">
+            <h1 id="welcome-text">Echa Beauty, Welcome To Our Website</h1>
+            <p>Kecantikan alami yang memancar dari dalam diri Anda</p>
+            <a href="#profile" class="btn">Discover Our Products</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="profile" class="about">
+        <div class="container">
+            <h2>Our Profile</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>About Rexana Beauty</h3>
+                    <p>Rexana Beauty adalah perusahaan kosmetik yang berdedikasi untuk menghadirkan produk kecantikan berkualitas tinggi dengan formula yang aman dan efektif. Kami percaya bahwa setiap wanita berhak merasa cantik dan percaya diri.</p>
+                    <p>Dengan penelitian bertahun-tahun dan bahan-bahan pilihan, kami menciptakan rangkaian produk yang tidak hanya mempercantik penampilan tetapi juga merawat kulit Anda.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Rexana Beauty Products">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Mission Section -->
+    <section class="vision-mission">
+        <div class="container">
+            <h2>Vision & Mission</h2>
+            <div class="vm-container">
+                <div class="vision">
+                    <h3>Our Vision</h3>
+                    <p>Menjadi brand kosmetik terdepan yang menginspirasi wanita Indonesia untuk tampil percaya diri dengan kecantikan alami mereka.</p>
+                </div>
+                <div class="mission">
+                    <h3>Our Mission</h3>
+                    <ul>
+                        <li>Mengembangkan produk kosmetik inovatif dengan bahan-bahan berkualitas tinggi</li>
+                        <li>Memberikan edukasi tentang perawatan kulit dan kecantikan yang tepat</li>
+                        <li>Mendorong kepercayaan diri wanita melalui produk yang aman dan efektif</li>
+                        <li>Berkontribusi pada komunitas dengan program-program kecantikan yang berkelanjutan</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Headquarter Section -->
+    <section id="headquarter" class="headquarter">
+        <div class="container">
+            <h2>Our Headquarter</h2>
+            <div class="hq-container">
+                <div class="hq-card">
+                    <h3>Cirebon</h3>
+                    <p>Jl. Cipto Mangunkusumo No. 123</p>
+                    <p>KOta Cirebon</p>
+                    <p>Phone: (021) 1234-5678</p>
+                    <p>Email: @rexana_Cirebon.com</p>
+                </div>
+                <div class="hq-card">
+                    <h3>Bandung</h3>
+                    <p>Jl. Dago No. 456</p>
+                    <p>Bandung</p>
+                    <p>Phone: (022) 8765-4321</p>
+                    <p>Email:@rexana_Bandung.com</p>
+                </div>
+                <div class="hq-card">
+                    <h3>Surabaya</h3>
+                    <p>Jl. Tunjungan No. 789</p>
+                    <p>Surabaya</p>
+                    <p>Phone: (031) 5678-1234</p>
+                    <p>Email: @rexana_Surabaya.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Message Us</h2>
+            <div class="form-container">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name">
+                        <div class="error" id="name-error">Please enter your name</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="birthdate">Tanggal Lahir</label>
+                        <input type="date" id="birthdate" name="birthdate">
+                        <div class="error" id="birthdate-error">Please enter your birth date</div>
+                    </div>
+                    <div class="form-group">
+                        <label>Jenis Kelamin</label>
+                        <div class="gender-group">
+                            <div class="gender-option">
+                                <input type="radio" id="male" name="gender" value="Laki-Laki">
+                                <label for="male">Laki-Laki</label>
+                            </div>
+                            <div class="gender-option">
+                                <input type="radio" id="female" name="gender" value="Perempuan">
+                                <label for="female">Perempuan</label>
+                            </div>
+                        </div>
+                        <div class="error" id="gender-error">Please select your gender</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" name="message" placeholder="Your Message"></textarea>
+                        <div class="error" id="message-error">Please enter your message</div>
+                    </div>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+                
+                <div class="form-results" id="form-results">
+                    <h3>Form Submission Details</h3>
+                    <div class="results-container">
+                        <div class="current-time">
+                            <h4>Current Time</h4>
+                            <p id="current-time"></p>
+                        </div>
+                        <div class="form-data">
+                            <h4>Your Data</h4>
+                            <p><strong>Name:</strong> <span id="result-name"></span></p>
+                            <p><strong>Tanggal Lahir:</strong> <span id="result-birthdate"></span></p>
+                            <p><strong>Jenis Kelamin:</strong> <span id="result-gender"></span></p>
+                            <p><strong>Pesan:</strong> <span id="result-message"></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Rexana Beauty</h3>
+                    <p>Your natural beauty, our passion.</p>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p>Email: info@rexana.com</p>
+                    <p>Phone: (021) 1234-5678</p>
+                    <p>Address: Jl. Sudirman No. 123, Jakarta</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Rexana Beauty. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+   
+</body>
+        <script src="js/script.js"></script>
+
+</html>
